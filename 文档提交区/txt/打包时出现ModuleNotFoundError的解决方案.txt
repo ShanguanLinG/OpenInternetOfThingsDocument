@@ -1,0 +1,5 @@
+打包时出现ModuleNotFoundError的解决方案
+一. 在代码头部添加语句import json, queue, ctypes, typing （只要使用到nle_library包和tplink包都要添加）
+二. 将需要用到的包移动到代码同级目录下（比如nle_library, 或者tplink）
+三. 打包时使用指令: pyinstaller.exe -Fw --add-binary 'nle_library;nle_library' --add-binary 'tplink;tplink' <文件名>.py
+--add-binary 参数后面加的是需要用到的包，可以添加多个，上述命令示例包含了nle_library包和tplink包，因此你需要将nle_library,和tplink包都移动到代码目录下

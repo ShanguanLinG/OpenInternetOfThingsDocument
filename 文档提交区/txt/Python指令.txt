@@ -1,0 +1,8 @@
+﻿离线包安装：
+	pip install -f . -r requirements.txt --no-index
+.py文件打包exe：
+	pyinstall --onefile --noconsole <名称>.py
+	或:
+	pyinstall -F -w <名称>.py
+.ui文件转化为.py：
+pyuic5 <文件名.ui> -o <文件名>.py

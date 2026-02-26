@@ -1,0 +1,44 @@
+一. 打开 03_新版_Python环境包
+二. 安装PyCharm：
+	1. 双击 pycharm-community-2022.1.exe
+	2. 点击Next
+	3. 点击Next
+	4. 勾选所有选项，点击Next
+	5. 点击Install
+	6. 等待安装完毕
+	7. 安装完毕后，勾选I want to manually reboot later, 点击Finish
+三. 安装Python
+	1. 双击python-3.6.8-amd64.exe
+	2. 选中Add Python 3.6 to PATH，点击Install Now
+	3. 等待安装完毕
+	4. 安装完毕后，点击CLose
+四. 安装Python离线包（一）
+	1. 打开offline_packages
+	2. 打开第一个文件夹
+	3. 在文件目录下删除路径，输入指令pip install -r . -f requirements.txt --no-index
+	4. 等待安装完毕，安装完毕后会自动退出（很快）
+	5. 打开第二个文件夹，以此类推，安装完所有的离线包
+五. 安装Python离线包（二）
+	1. 在桌面上新建一个文件夹
+	2. 打开公共工具包_全栈版
+	3. 打开调用库&使用说明
+	4. 打开Python文件夹
+	5. 打开nle_library_v3.6文件夹
+	6. 选中nle_library_v3.6.rar，右键解压到当前文件夹
+	7. 将解压出来的nle_library复制到桌面的新建文件夹中
+	8. 返回上一级目录，打开tp_camera_文件夹
+	9. 选中tplink_v3.6.rar，右键解压到当前文件夹
+	10. 将解压出来的tplink文件夹复制到桌面的新建文件夹中
+	11. Win+R输入cmd并回车，打开命令提示符
+	12. 输入where python，查找python安装的路径，打开python所在的目录的上一级目录
+	13. 找到Lib文件夹
+	14. 将桌面中新建文件夹中的两个文件夹移动到Lib文件夹中
+六. 进行一些设置
+	1. 打开PyCharm
+	2. 选择Do not import settings，点击ok
+	3. 点击New Project创建项目
+	4. 选择Previously configured interpreter, 点击Interpreter右侧的三个点
+	5. 选择System Interpreter，点击OK
+	6. 点击Create，设置完毕
+
+	
